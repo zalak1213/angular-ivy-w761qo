@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<button (click)="getData()"> Get Deta</button>
+
+
+<ol>
+<li *ngFor="let user of users"> {{ user.name }}--{{user.jobTitle}} --<button (click)="RemoveData(user)"> Remove</button>
+</li>
+</ol>
